@@ -18,8 +18,10 @@ If the payment is for a physical product or a book, generate a commission paymen
 
 I have added a Rule Engine which will build all the Rules. 
 Order Processor is designed to test all the rules baesed upon a switch case.
+
 Everytime we need to build a new rule, We will add a class which will implement Rule interface and we will write it's respective logic in the process method of that new Rule class.
-Rule Interface is made Generic. G=Here, I denotes Input and Odenotes Output
+
+Rule Interface is made Generic. Here, I denotes Input and O denotes Output
 My Rule Engine class is implemeting Builder Design Pattern to take care of the Creation of new Rules everytime.
 
 This system will handle the existing rules and yet open to extension to new rule without making any change to the existing system.
